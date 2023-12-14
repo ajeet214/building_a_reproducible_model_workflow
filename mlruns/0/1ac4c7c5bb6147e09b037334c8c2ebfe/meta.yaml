@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/1ac4c7c5bb6147e09b037334c8c2ebfe/artifacts
+end_time: 1702521315398
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1ac4c7c5bb6147e09b037334c8c2ebfe
+run_name: lyrical-goose-100
+run_uuid: 1ac4c7c5bb6147e09b037334c8c2ebfe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702521038199
+status: 4
+tags: []
+user_id: ajeet214

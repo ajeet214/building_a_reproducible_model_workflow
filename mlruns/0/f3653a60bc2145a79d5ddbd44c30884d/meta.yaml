@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/f3653a60bc2145a79d5ddbd44c30884d/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f3653a60bc2145a79d5ddbd44c30884d
+run_name: nebulous-eel-954
+run_uuid: f3653a60bc2145a79d5ddbd44c30884d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702521040698
+status: 1
+tags: []
+user_id: ajeet214

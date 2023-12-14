@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/907370101d3d472f9baa412ff6f46b05/artifacts
+end_time: 1702521014841
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 907370101d3d472f9baa412ff6f46b05
+run_name: bedecked-fowl-410
+run_uuid: 907370101d3d472f9baa412ff6f46b05
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702520814034
+status: 3
+tags: []
+user_id: ajeet214

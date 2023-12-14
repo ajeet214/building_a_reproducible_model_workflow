@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/9b6138feca8d4c4a90132073ea55d3ee/artifacts
+end_time: 1702520505491
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9b6138feca8d4c4a90132073ea55d3ee
+run_name: gentle-croc-384
+run_uuid: 9b6138feca8d4c4a90132073ea55d3ee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702520032710
+status: 3
+tags: []
+user_id: ajeet214

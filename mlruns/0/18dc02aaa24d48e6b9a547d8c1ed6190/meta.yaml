@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/18dc02aaa24d48e6b9a547d8c1ed6190/artifacts
+end_time: 1702520505112
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 18dc02aaa24d48e6b9a547d8c1ed6190
+run_name: skittish-lynx-136
+run_uuid: 18dc02aaa24d48e6b9a547d8c1ed6190
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702520036164
+status: 3
+tags: []
+user_id: ajeet214
