@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/f50982db2b8c46078218a5bea42052d7/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f50982db2b8c46078218a5bea42052d7
+run_name: exultant-lamb-510
+run_uuid: f50982db2b8c46078218a5bea42052d7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702747297976
+status: 1
+tags: []
+user_id: ajeet214

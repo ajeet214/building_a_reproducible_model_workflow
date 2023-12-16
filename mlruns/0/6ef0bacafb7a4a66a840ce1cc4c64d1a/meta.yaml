@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/6ef0bacafb7a4a66a840ce1cc4c64d1a/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6ef0bacafb7a4a66a840ce1cc4c64d1a
+run_name: abrasive-crane-389
+run_uuid: 6ef0bacafb7a4a66a840ce1cc4c64d1a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702746274869
+status: 1
+tags: []
+user_id: ajeet214

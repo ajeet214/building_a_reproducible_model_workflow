@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/4621aa3c6585407f9377f0976bae488b/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4621aa3c6585407f9377f0976bae488b
+run_name: placid-worm-146
+run_uuid: 4621aa3c6585407f9377f0976bae488b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702746267585
+status: 1
+tags: []
+user_id: ajeet214

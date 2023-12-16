@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/800dc1b9b8604ac393a6bdd05d9b746d/artifacts
+end_time: 1702749286669
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 800dc1b9b8604ac393a6bdd05d9b746d
+run_name: abundant-donkey-578
+run_uuid: 800dc1b9b8604ac393a6bdd05d9b746d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702749143169
+status: 3
+tags: []
+user_id: ajeet214

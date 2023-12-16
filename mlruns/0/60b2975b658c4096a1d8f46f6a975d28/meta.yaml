@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/60b2975b658c4096a1d8f46f6a975d28/artifacts
+end_time: 1702750348132
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 60b2975b658c4096a1d8f46f6a975d28
+run_name: unequaled-bird-25
+run_uuid: 60b2975b658c4096a1d8f46f6a975d28
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702750113539
+status: 3
+tags: []
+user_id: ajeet214

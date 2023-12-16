@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/57e05c5aaf62453dbeecabaa6c4adf85/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 57e05c5aaf62453dbeecabaa6c4adf85
+run_name: nimble-squid-890
+run_uuid: 57e05c5aaf62453dbeecabaa6c4adf85
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702747302988
+status: 1
+tags: []
+user_id: ajeet214
