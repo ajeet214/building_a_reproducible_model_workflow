@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/cb788741247a4557bfcb49e5a9a7ec15/artifacts
+end_time: 1702742862214
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cb788741247a4557bfcb49e5a9a7ec15
+run_name: abundant-shark-213
+run_uuid: cb788741247a4557bfcb49e5a9a7ec15
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702742255069
+status: 3
+tags: []
+user_id: ajeet214

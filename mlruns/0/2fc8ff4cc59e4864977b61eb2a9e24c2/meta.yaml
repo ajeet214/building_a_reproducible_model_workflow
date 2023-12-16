@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/2fc8ff4cc59e4864977b61eb2a9e24c2/artifacts
+end_time: 1702742861059
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2fc8ff4cc59e4864977b61eb2a9e24c2
+run_name: monumental-lark-483
+run_uuid: 2fc8ff4cc59e4864977b61eb2a9e24c2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702742718882
+status: 3
+tags: []
+user_id: ajeet214
