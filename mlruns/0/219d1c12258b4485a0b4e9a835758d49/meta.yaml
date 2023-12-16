@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/219d1c12258b4485a0b4e9a835758d49/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 219d1c12258b4485a0b4e9a835758d49
+run_name: caring-vole-453
+run_uuid: 219d1c12258b4485a0b4e9a835758d49
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702745069943
+status: 1
+tags: []
+user_id: ajeet214
