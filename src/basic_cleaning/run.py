@@ -5,7 +5,7 @@ import logging
 import wandb
 import pandas as pd
 
-
+# Set up logging configuration
 logging.basicConfig(level=logging.INFO, format="%(asctime)-15s %(message)s")
 logger = logging.getLogger()
 
@@ -17,9 +17,12 @@ def go(args):
     Params:
         args (argparse.Namespace): Command line arguments
     """
+
+    # Initialize Weights & Biases run
     run = wandb.init(job_type="basic_cleaning")
     run.config.update(args)
 
+    # Load data from the input artifact
     artifact_local_path = run.use_artifact(args.input_artifact).file()
     df = pd.read_csv(artifact_local_path)
 
@@ -57,6 +60,8 @@ def go(args):
 
 
 if __name__ == "__main__":
+
+    # Define command-line arguments
     parser = argparse.ArgumentParser(description="This steps cleans the data")
     parser.add_argument(
         "--input_artifact",
@@ -94,5 +99,7 @@ if __name__ == "__main__":
         help="Maximum price of the cars in the NYC dataset",
         required=True
     )
+
+    # Parse command-line arguments and execute the 'go' function
     args = parser.parse_args()
     go(args)
