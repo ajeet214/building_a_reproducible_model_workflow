@@ -1,0 +1,216 @@
+2023-12-17 01:38:22,695 INFO    StreamThr :10258 [internal.py:wandb_internal():86] W&B internal server running at pid: 10258, started at: 2023-12-17 01:38:22.695188
+2023-12-17 01:38:22,698 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: status
+2023-12-17 01:38:22,700 INFO    WriterThread:10258 [datastore.py:open_for_write():85] open: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/run-6flmww95.wandb
+2023-12-17 01:38:22,700 DEBUG   SenderThread:10258 [sender.py:send():379] send: header
+2023-12-17 01:38:22,702 DEBUG   SenderThread:10258 [sender.py:send():379] send: run
+2023-12-17 01:38:23,370 INFO    SenderThread:10258 [dir_watcher.py:__init__():211] watching files in: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files
+2023-12-17 01:38:23,370 INFO    SenderThread:10258 [sender.py:_start_run_threads():1121] run started: 6flmww95 with start time 1702751902.695431
+2023-12-17 01:38:23,370 DEBUG   SenderThread:10258 [sender.py:send_request():406] send_request: summary_record
+2023-12-17 01:38:23,371 INFO    SenderThread:10258 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-12-17 01:38:23,374 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: check_version
+2023-12-17 01:38:23,374 DEBUG   SenderThread:10258 [sender.py:send_request():406] send_request: check_version
+2023-12-17 01:38:23,522 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: run_start
+2023-12-17 01:38:24,146 DEBUG   HandlerThread:10258 [system_info.py:__init__():31] System info init
+2023-12-17 01:38:24,146 DEBUG   HandlerThread:10258 [system_info.py:__init__():46] System info init done
+2023-12-17 01:38:24,147 INFO    HandlerThread:10258 [system_monitor.py:start():181] Starting system monitor
+2023-12-17 01:38:24,147 INFO    SystemMonitor:10258 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-12-17 01:38:24,147 INFO    HandlerThread:10258 [system_monitor.py:probe():201] Collecting system info
+2023-12-17 01:38:24,148 INFO    SystemMonitor:10258 [interfaces.py:start():190] Started cpu monitoring
+2023-12-17 01:38:24,148 INFO    SystemMonitor:10258 [interfaces.py:start():190] Started disk monitoring
+2023-12-17 01:38:24,149 INFO    SystemMonitor:10258 [interfaces.py:start():190] Started gpu monitoring
+2023-12-17 01:38:24,149 INFO    SystemMonitor:10258 [interfaces.py:start():190] Started memory monitoring
+2023-12-17 01:38:24,150 INFO    SystemMonitor:10258 [interfaces.py:start():190] Started network monitoring
+2023-12-17 01:38:24,163 DEBUG   HandlerThread:10258 [system_info.py:probe():195] Probing system
+2023-12-17 01:38:24,179 ERROR   gpu       :10258 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-12-17 01:38:24,237 DEBUG   HandlerThread:10258 [system_info.py:_probe_git():180] Probing git
+2023-12-17 01:38:24,242 DEBUG   HandlerThread:10258 [system_info.py:_probe_git():188] Probing git done
+2023-12-17 01:38:24,242 DEBUG   HandlerThread:10258 [system_info.py:probe():240] Probing system done
+2023-12-17 01:38:24,242 DEBUG   HandlerThread:10258 [system_monitor.py:probe():210] {'os': 'Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.11.7', 'heartbeatAt': '2023-12-16T18:38:24.163608', 'startedAt': '2023-12-16T18:38:22.687171', 'docker': None, 'cuda': None, 'args': ('--input_artifact', 'sample.csv:latest', '--output_artifact', 'clean_sample.csv', '--output_type', 'clean_sample', '--output_description', 'Data with outliers and null values removed', '--min_price', '10', '--max_price', '350'), 'state': 'running', 'program': '/home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/run.py', 'codePath': 'src/basic_cleaning/run.py', 'git': {'remote': 'https://github.com/ajeet214/building_a_reproducible_model_workflow.git', 'commit': 'f7daff6852b6257bb2b40e38288bfbf8d6d7d675'}, 'email': 'ajeet214.90@gmail.com', 'root': '/home/ajeet214/building_a_reproducible_model_workflow', 'host': 'MSI', 'username': 'ajeet214', 'executable': '/home/ajeet214/miniconda3/envs/mlflow-b80d5dce1a18990e9c046d52378527aab9dd9d28/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2303.998, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 1006.853931427002, 'used': 17.30838394165039}, 'gpu': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'memory_total': 4294967296}], 'memory': {'total': 3.6819534301757812}}
+2023-12-17 01:38:24,242 INFO    HandlerThread:10258 [system_monitor.py:probe():211] Finished collecting system info
+2023-12-17 01:38:24,242 INFO    HandlerThread:10258 [system_monitor.py:probe():214] Publishing system info
+2023-12-17 01:38:24,242 DEBUG   HandlerThread:10258 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-12-17 01:38:24,242 DEBUG   HandlerThread:10258 [system_info.py:_save_pip():67] Saving pip packages done
+2023-12-17 01:38:24,242 DEBUG   HandlerThread:10258 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-12-17 01:38:24,372 INFO    Thread-12 :10258 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/wandb-summary.json
+2023-12-17 01:38:24,372 INFO    Thread-12 :10258 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/conda-environment.yaml
+2023-12-17 01:38:24,372 INFO    Thread-12 :10258 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/requirements.txt
+2023-12-17 01:38:24,800 DEBUG   HandlerThread:10258 [system_info.py:_save_conda():86] Saving conda packages done
+2023-12-17 01:38:24,801 DEBUG   HandlerThread:10258 [system_info.py:_save_code():89] Saving code
+2023-12-17 01:38:24,803 DEBUG   HandlerThread:10258 [system_info.py:_save_code():110] Saving code done
+2023-12-17 01:38:24,803 DEBUG   HandlerThread:10258 [system_info.py:_save_patches():127] Saving git patches
+2023-12-17 01:38:25,372 INFO    Thread-12 :10258 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/conda-environment.yaml
+2023-12-17 01:38:25,373 INFO    Thread-12 :10258 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/diff.patch
+2023-12-17 01:38:25,373 INFO    Thread-12 :10258 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/code/src/basic_cleaning/run.py
+2023-12-17 01:38:25,373 INFO    Thread-12 :10258 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/code
+2023-12-17 01:38:25,373 INFO    Thread-12 :10258 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/code/src/basic_cleaning
+2023-12-17 01:38:25,373 INFO    Thread-12 :10258 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/code/src
+2023-12-17 01:38:25,538 DEBUG   HandlerThread:10258 [system_info.py:_save_patches():169] Saving git patches done
+2023-12-17 01:38:25,538 INFO    HandlerThread:10258 [system_monitor.py:probe():216] Finished publishing system info
+2023-12-17 01:38:25,542 DEBUG   SenderThread:10258 [sender.py:send():379] send: files
+2023-12-17 01:38:25,542 INFO    SenderThread:10258 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-12-17 01:38:25,542 INFO    SenderThread:10258 [sender.py:_save_file():1375] saving file code/src/basic_cleaning/run.py with policy now
+2023-12-17 01:38:25,543 INFO    SenderThread:10258 [sender.py:_save_file():1375] saving file diff.patch with policy now
+2023-12-17 01:38:25,548 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-17 01:38:25,548 DEBUG   SenderThread:10258 [sender.py:send_request():406] send_request: stop_status
+2023-12-17 01:38:25,849 DEBUG   SenderThread:10258 [sender.py:send():379] send: telemetry
+2023-12-17 01:38:25,850 DEBUG   SenderThread:10258 [sender.py:send():379] send: config
+2023-12-17 01:38:26,373 INFO    Thread-12 :10258 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/diff.patch
+2023-12-17 01:38:26,373 INFO    Thread-12 :10258 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/wandb-metadata.json
+2023-12-17 01:38:26,440 DEBUG   SenderThread:10258 [sender.py:send():379] send: use_artifact
+2023-12-17 01:38:26,464 INFO    wandb-upload_2:10258 [upload_job.py:push():131] Uploaded file /tmp/tmpv6du99mnwandb/c0og7n0x-diff.patch
+2023-12-17 01:38:26,477 INFO    wandb-upload_1:10258 [upload_job.py:push():131] Uploaded file /tmp/tmpv6du99mnwandb/we5ax0vy-code/src/basic_cleaning/run.py
+2023-12-17 01:38:26,634 ERROR   gpu       :10258 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-17 01:38:26,634 ERROR   gpu       :10258 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-17 01:38:27,119 INFO    wandb-upload_0:10258 [upload_job.py:push():131] Uploaded file /tmp/tmpv6du99mnwandb/0s15z39x-wandb-metadata.json
+2023-12-17 01:38:27,373 INFO    Thread-12 :10258 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/output.log
+2023-12-17 01:38:27,748 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: log_artifact
+2023-12-17 01:38:27,748 DEBUG   SenderThread:10258 [sender.py:send_request():406] send_request: log_artifact
+2023-12-17 01:38:28,293 INFO    SenderThread:10258 [sender.py:send_request_log_artifact():1441] logged artifact clean_sample.csv - {'id': 'QXJ0aWZhY3Q6NjY2NTY2NDgz', 'digest': 'd1caf0f1b6fe9e1d49d7c0b252c8b39a', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'clean_sample.csv', 'alias': 'latest'}, {'artifactCollectionName': 'clean_sample.csv', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyMzQ0NDA0NA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NjY2NTY2NDgz', 'versionIndex': 0}}, 'version': 'v0'}
+2023-12-17 01:38:28,293 DEBUG   SenderThread:10258 [sender.py:send():379] send: exit
+2023-12-17 01:38:28,293 INFO    SenderThread:10258 [sender.py:send_exit():584] handling exit code: 0
+2023-12-17 01:38:28,293 INFO    SenderThread:10258 [sender.py:send_exit():586] handling runtime: 4
+2023-12-17 01:38:28,293 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: status_report
+2023-12-17 01:38:28,295 INFO    SenderThread:10258 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-12-17 01:38:28,295 INFO    SenderThread:10258 [sender.py:send_exit():592] send defer
+2023-12-17 01:38:28,296 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: defer
+2023-12-17 01:38:28,296 INFO    HandlerThread:10258 [handler.py:handle_request_defer():170] handle defer: 0
+2023-12-17 01:38:28,296 DEBUG   SenderThread:10258 [sender.py:send_request():406] send_request: defer
+2023-12-17 01:38:28,296 INFO    SenderThread:10258 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-12-17 01:38:28,296 INFO    SenderThread:10258 [sender.py:transition_state():612] send defer: 1
+2023-12-17 01:38:28,296 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: defer
+2023-12-17 01:38:28,296 INFO    HandlerThread:10258 [handler.py:handle_request_defer():170] handle defer: 1
+2023-12-17 01:38:28,296 DEBUG   SenderThread:10258 [sender.py:send_request():406] send_request: defer
+2023-12-17 01:38:28,296 INFO    SenderThread:10258 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-12-17 01:38:28,297 INFO    SenderThread:10258 [sender.py:transition_state():612] send defer: 2
+2023-12-17 01:38:28,297 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: defer
+2023-12-17 01:38:28,297 INFO    HandlerThread:10258 [handler.py:handle_request_defer():170] handle defer: 2
+2023-12-17 01:38:28,297 INFO    HandlerThread:10258 [system_monitor.py:finish():190] Stopping system monitor
+2023-12-17 01:38:28,297 DEBUG   SystemMonitor:10258 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-12-17 01:38:28,297 DEBUG   SystemMonitor:10258 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-12-17 01:38:28,297 DEBUG   SystemMonitor:10258 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-12-17 01:38:28,298 INFO    HandlerThread:10258 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-17 01:38:28,298 INFO    HandlerThread:10258 [interfaces.py:finish():202] Joined disk monitor
+2023-12-17 01:38:28,374 INFO    Thread-12 :10258 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/wandb-summary.json
+2023-12-17 01:38:28,746 INFO    HandlerThread:10258 [interfaces.py:finish():202] Joined gpu monitor
+2023-12-17 01:38:28,746 INFO    HandlerThread:10258 [interfaces.py:finish():202] Joined memory monitor
+2023-12-17 01:38:28,746 INFO    HandlerThread:10258 [interfaces.py:finish():202] Joined network monitor
+2023-12-17 01:38:28,747 DEBUG   SenderThread:10258 [sender.py:send_request():406] send_request: defer
+2023-12-17 01:38:28,747 INFO    SenderThread:10258 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-12-17 01:38:28,747 INFO    SenderThread:10258 [sender.py:transition_state():612] send defer: 3
+2023-12-17 01:38:28,747 DEBUG   SenderThread:10258 [sender.py:send():379] send: stats
+2023-12-17 01:38:28,747 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: defer
+2023-12-17 01:38:28,747 INFO    HandlerThread:10258 [handler.py:handle_request_defer():170] handle defer: 3
+2023-12-17 01:38:28,747 DEBUG   SenderThread:10258 [sender.py:send_request():406] send_request: defer
+2023-12-17 01:38:28,747 INFO    SenderThread:10258 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-12-17 01:38:28,747 INFO    SenderThread:10258 [sender.py:transition_state():612] send defer: 4
+2023-12-17 01:38:28,748 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: defer
+2023-12-17 01:38:28,748 INFO    HandlerThread:10258 [handler.py:handle_request_defer():170] handle defer: 4
+2023-12-17 01:38:28,748 DEBUG   SenderThread:10258 [sender.py:send_request():406] send_request: defer
+2023-12-17 01:38:28,748 INFO    SenderThread:10258 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-12-17 01:38:28,748 INFO    SenderThread:10258 [sender.py:transition_state():612] send defer: 5
+2023-12-17 01:38:28,748 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: defer
+2023-12-17 01:38:28,748 INFO    HandlerThread:10258 [handler.py:handle_request_defer():170] handle defer: 5
+2023-12-17 01:38:28,748 DEBUG   SenderThread:10258 [sender.py:send():379] send: summary
+2023-12-17 01:38:28,748 INFO    SenderThread:10258 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-12-17 01:38:28,748 DEBUG   SenderThread:10258 [sender.py:send_request():406] send_request: defer
+2023-12-17 01:38:28,748 INFO    SenderThread:10258 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-12-17 01:38:28,748 INFO    SenderThread:10258 [sender.py:transition_state():612] send defer: 6
+2023-12-17 01:38:28,748 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: defer
+2023-12-17 01:38:28,748 INFO    HandlerThread:10258 [handler.py:handle_request_defer():170] handle defer: 6
+2023-12-17 01:38:28,749 DEBUG   SenderThread:10258 [sender.py:send_request():406] send_request: defer
+2023-12-17 01:38:28,749 INFO    SenderThread:10258 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-12-17 01:38:28,750 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: status_report
+2023-12-17 01:38:28,752 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: poll_exit
+2023-12-17 01:38:29,086 INFO    SenderThread:10258 [sender.py:transition_state():612] send defer: 7
+2023-12-17 01:38:29,086 DEBUG   SenderThread:10258 [sender.py:send_request():406] send_request: poll_exit
+2023-12-17 01:38:29,086 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: defer
+2023-12-17 01:38:29,086 INFO    HandlerThread:10258 [handler.py:handle_request_defer():170] handle defer: 7
+2023-12-17 01:38:29,087 DEBUG   SenderThread:10258 [sender.py:send_request():406] send_request: defer
+2023-12-17 01:38:29,087 INFO    SenderThread:10258 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-12-17 01:38:29,318 INFO    SenderThread:10258 [sender.py:transition_state():612] send defer: 8
+2023-12-17 01:38:29,319 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: defer
+2023-12-17 01:38:29,319 INFO    HandlerThread:10258 [handler.py:handle_request_defer():170] handle defer: 8
+2023-12-17 01:38:29,319 DEBUG   SenderThread:10258 [sender.py:send_request():406] send_request: defer
+2023-12-17 01:38:29,319 INFO    SenderThread:10258 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-12-17 01:38:29,319 INFO    SenderThread:10258 [job_builder.py:build():281] Attempting to build job artifact
+2023-12-17 01:38:29,320 INFO    SenderThread:10258 [job_builder.py:_get_source_type():400] is repo sourced job
+2023-12-17 01:38:29,321 INFO    SenderThread:10258 [job_builder.py:build():374] adding wandb-job metadata file
+2023-12-17 01:38:29,375 INFO    Thread-12 :10258 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/output.log
+2023-12-17 01:38:29,376 INFO    Thread-12 :10258 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/config.yaml
+2023-12-17 01:38:29,376 INFO    Thread-12 :10258 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/wandb-summary.json
+2023-12-17 01:38:29,397 INFO    SenderThread:10258 [sender.py:transition_state():612] send defer: 9
+2023-12-17 01:38:29,397 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: defer
+2023-12-17 01:38:29,397 INFO    HandlerThread:10258 [handler.py:handle_request_defer():170] handle defer: 9
+2023-12-17 01:38:29,398 DEBUG   SenderThread:10258 [sender.py:send():379] send: artifact
+2023-12-17 01:38:29,753 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: poll_exit
+2023-12-17 01:38:30,815 INFO    wandb-upload_1:10258 [upload_job.py:push():86] Skipped uploading /home/ajeet214/.local/share/wandb/artifacts/staging/tmphp_6hqaf
+2023-12-17 01:38:31,196 INFO    wandb-upload_0:10258 [upload_job.py:push():89] Uploaded file /home/ajeet214/.local/share/wandb/artifacts/staging/tmphwider2s
+2023-12-17 01:38:31,876 INFO    wandb-upload_2:10258 [upload_job.py:push():89] Uploaded file /home/ajeet214/.local/share/wandb/artifacts/staging/tmpuudrnic1
+2023-12-17 01:38:33,651 INFO    SenderThread:10258 [sender.py:send_artifact():1475] sent artifact job-https___github.com_ajeet214_building_a_reproducible_model_workflow.git_src_basic_cleaning_run.py - {'id': 'QXJ0aWZhY3Q6NjY4NjAwOTk2', 'digest': 'bf967db00be6aa0adee35543e0728f53', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyMzQ0NDA1OQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NjY4NTc5OTQ4', 'versionIndex': 1}}, 'version': 'latest'}
+2023-12-17 01:38:33,651 DEBUG   SenderThread:10258 [sender.py:send_request():406] send_request: defer
+2023-12-17 01:38:33,651 INFO    SenderThread:10258 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-12-17 01:38:33,651 INFO    SenderThread:10258 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-12-17 01:38:34,383 INFO    SenderThread:10258 [dir_watcher.py:finish():388] scan: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files
+2023-12-17 01:38:34,383 INFO    SenderThread:10258 [dir_watcher.py:finish():402] scan save: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/wandb-summary.json wandb-summary.json
+2023-12-17 01:38:34,384 INFO    SenderThread:10258 [dir_watcher.py:finish():402] scan save: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/diff.patch diff.patch
+2023-12-17 01:38:34,384 INFO    SenderThread:10258 [dir_watcher.py:finish():402] scan save: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/wandb-metadata.json wandb-metadata.json
+2023-12-17 01:38:34,384 INFO    SenderThread:10258 [dir_watcher.py:finish():402] scan save: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/conda-environment.yaml conda-environment.yaml
+2023-12-17 01:38:34,385 INFO    SenderThread:10258 [dir_watcher.py:finish():402] scan save: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/requirements.txt requirements.txt
+2023-12-17 01:38:34,385 INFO    SenderThread:10258 [dir_watcher.py:finish():402] scan save: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/config.yaml config.yaml
+2023-12-17 01:38:34,386 INFO    SenderThread:10258 [dir_watcher.py:finish():402] scan save: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/output.log output.log
+2023-12-17 01:38:34,398 INFO    SenderThread:10258 [dir_watcher.py:finish():402] scan save: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/code/src/basic_cleaning/run.py code/src/basic_cleaning/run.py
+2023-12-17 01:38:34,398 INFO    SenderThread:10258 [sender.py:transition_state():612] send defer: 10
+2023-12-17 01:38:34,398 DEBUG   SenderThread:10258 [sender.py:send_request():406] send_request: poll_exit
+2023-12-17 01:38:34,399 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: defer
+2023-12-17 01:38:34,399 INFO    HandlerThread:10258 [handler.py:handle_request_defer():170] handle defer: 10
+2023-12-17 01:38:34,399 DEBUG   SenderThread:10258 [sender.py:send_request():406] send_request: defer
+2023-12-17 01:38:34,399 INFO    SenderThread:10258 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-12-17 01:38:34,399 INFO    SenderThread:10258 [file_pusher.py:finish():159] shutting down file pusher
+2023-12-17 01:38:34,761 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: keepalive
+2023-12-17 01:38:34,934 INFO    wandb-upload_0:10258 [upload_job.py:push():131] Uploaded file /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/config.yaml
+2023-12-17 01:38:34,937 INFO    wandb-upload_2:10258 [upload_job.py:push():131] Uploaded file /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/output.log
+2023-12-17 01:38:34,941 INFO    wandb-upload_3:10258 [upload_job.py:push():131] Uploaded file /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/wandb-summary.json
+2023-12-17 01:38:35,010 INFO    wandb-upload_4:10258 [upload_job.py:push():131] Uploaded file /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/conda-environment.yaml
+2023-12-17 01:38:35,200 INFO    wandb-upload_1:10258 [upload_job.py:push():131] Uploaded file /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/files/requirements.txt
+2023-12-17 01:38:35,402 INFO    Thread-11 (_thread_body):10258 [sender.py:transition_state():612] send defer: 11
+2023-12-17 01:38:35,403 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: defer
+2023-12-17 01:38:35,403 INFO    HandlerThread:10258 [handler.py:handle_request_defer():170] handle defer: 11
+2023-12-17 01:38:35,405 DEBUG   SenderThread:10258 [sender.py:send_request():406] send_request: defer
+2023-12-17 01:38:35,406 INFO    SenderThread:10258 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-12-17 01:38:35,406 INFO    SenderThread:10258 [file_pusher.py:join():164] waiting for file pusher
+2023-12-17 01:38:35,406 INFO    SenderThread:10258 [sender.py:transition_state():612] send defer: 12
+2023-12-17 01:38:35,407 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: defer
+2023-12-17 01:38:35,407 INFO    HandlerThread:10258 [handler.py:handle_request_defer():170] handle defer: 12
+2023-12-17 01:38:35,408 DEBUG   SenderThread:10258 [sender.py:send_request():406] send_request: defer
+2023-12-17 01:38:35,408 INFO    SenderThread:10258 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-12-17 01:38:35,408 INFO    SenderThread:10258 [file_stream.py:finish():593] file stream finish called
+2023-12-17 01:38:35,665 INFO    SenderThread:10258 [file_stream.py:finish():597] file stream finish is done
+2023-12-17 01:38:35,665 INFO    SenderThread:10258 [sender.py:transition_state():612] send defer: 13
+2023-12-17 01:38:35,665 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: defer
+2023-12-17 01:38:35,665 INFO    HandlerThread:10258 [handler.py:handle_request_defer():170] handle defer: 13
+2023-12-17 01:38:35,666 DEBUG   SenderThread:10258 [sender.py:send_request():406] send_request: defer
+2023-12-17 01:38:35,666 INFO    SenderThread:10258 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-12-17 01:38:35,666 INFO    SenderThread:10258 [sender.py:transition_state():612] send defer: 14
+2023-12-17 01:38:35,666 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: defer
+2023-12-17 01:38:35,666 INFO    HandlerThread:10258 [handler.py:handle_request_defer():170] handle defer: 14
+2023-12-17 01:38:35,667 DEBUG   SenderThread:10258 [sender.py:send():379] send: final
+2023-12-17 01:38:35,667 DEBUG   SenderThread:10258 [sender.py:send():379] send: footer
+2023-12-17 01:38:35,667 DEBUG   SenderThread:10258 [sender.py:send_request():406] send_request: defer
+2023-12-17 01:38:35,667 INFO    SenderThread:10258 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-12-17 01:38:35,668 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: poll_exit
+2023-12-17 01:38:35,669 DEBUG   SenderThread:10258 [sender.py:send_request():406] send_request: poll_exit
+2023-12-17 01:38:35,669 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: server_info
+2023-12-17 01:38:35,670 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: get_summary
+2023-12-17 01:38:35,670 DEBUG   SenderThread:10258 [sender.py:send_request():406] send_request: server_info
+2023-12-17 01:38:35,672 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: sampled_history
+2023-12-17 01:38:35,673 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: job_info
+2023-12-17 01:38:35,911 DEBUG   SenderThread:10258 [sender.py:send_request():406] send_request: job_info
+2023-12-17 01:38:35,912 INFO    MainThread:10258 [wandb_run.py:_footer_history_summary_info():3481] rendering history
+2023-12-17 01:38:35,912 INFO    MainThread:10258 [wandb_run.py:_footer_history_summary_info():3513] rendering summary
+2023-12-17 01:38:35,912 INFO    MainThread:10258 [wandb_run.py:_footer_sync_info():3440] logging synced files
+2023-12-17 01:38:35,913 DEBUG   HandlerThread:10258 [handler.py:handle_request():144] handle_request: shutdown
+2023-12-17 01:38:35,914 INFO    HandlerThread:10258 [handler.py:finish():857] shutting down handler
+2023-12-17 01:38:36,674 INFO    WriterThread:10258 [datastore.py:close():294] close: /home/ajeet214/building_a_reproducible_model_workflow/src/basic_cleaning/wandb/run-20231217_013822-6flmww95/run-6flmww95.wandb
+2023-12-17 01:38:36,912 INFO    SenderThread:10258 [sender.py:finish():1552] shutting down sender
+2023-12-17 01:38:36,912 INFO    SenderThread:10258 [file_pusher.py:finish():159] shutting down file pusher
+2023-12-17 01:38:36,929 INFO    SenderThread:10258 [file_pusher.py:join():164] waiting for file pusher

@@ -1,0 +1,96 @@
+diff --git a/main.py b/main.py
+index a9f3dda..67f3b2f 100644
+--- a/main.py
++++ b/main.py
+@@ -136,6 +136,7 @@ def go(config: DictConfig):
+             _ = mlflow.run(
+                 uri=f"{config['main']['components_repository']}/test_regression_model",
+                 entry_point="main",
++                version="main",
+                 parameters={
+                     "mlflow_model": "random_forest_model:prod",
+                     "test_dataset": "test_data.csv:latest",
+diff --git a/src/basic_cleaning/wandb/debug-internal.log b/src/basic_cleaning/wandb/debug-internal.log
+index 9a58f54..0477542 120000
+--- a/src/basic_cleaning/wandb/debug-internal.log
++++ b/src/basic_cleaning/wandb/debug-internal.log
+@@ -1 +1 @@
+-run-20231217_004826-5gvl1c74/logs/debug-internal.log
+\ No newline at end of file
++run-20231217_014748-lbu1pxt8/logs/debug-internal.log
+\ No newline at end of file
+diff --git a/src/basic_cleaning/wandb/debug.log b/src/basic_cleaning/wandb/debug.log
+index 98aa9eb..489501c 120000
+--- a/src/basic_cleaning/wandb/debug.log
++++ b/src/basic_cleaning/wandb/debug.log
+@@ -1 +1 @@
+-run-20231217_004826-5gvl1c74/logs/debug.log
+\ No newline at end of file
++run-20231217_014748-lbu1pxt8/logs/debug.log
+\ No newline at end of file
+diff --git a/src/basic_cleaning/wandb/latest-run b/src/basic_cleaning/wandb/latest-run
+index 7e5927d..56d7831 120000
+--- a/src/basic_cleaning/wandb/latest-run
++++ b/src/basic_cleaning/wandb/latest-run
+@@ -1 +1 @@
+-run-20231217_004826-5gvl1c74
+\ No newline at end of file
++run-20231217_014748-lbu1pxt8
+\ No newline at end of file
+diff --git a/src/data_check/test_data.py b/src/data_check/test_data.py
+index 8aaa80b..73045a9 100644
+--- a/src/data_check/test_data.py
++++ b/src/data_check/test_data.py
+@@ -12,7 +12,7 @@ def test_column_names(data):
+         data (pd.DataFrame): The dataset to be tested.
+     """
+ 
+-    expected_colums = [
++    expected_columns = [
+         "id",
+         "name",
+         "host_id",
+diff --git a/src/train_random_forest/random_forest_dir/MLmodel b/src/train_random_forest/random_forest_dir/MLmodel
+index 5255c49..4b2236f 100644
+--- a/src/train_random_forest/random_forest_dir/MLmodel
++++ b/src/train_random_forest/random_forest_dir/MLmodel
+@@ -13,6 +13,6 @@ flavors:
+     serialization_format: cloudpickle
+     sklearn_version: 1.3.2
+ mlflow_version: 2.8.1
+-model_size_bytes: 21363503
+-model_uuid: 178be8b119794b2a9b21714f4c1b829e
+-utc_time_created: '2023-12-16 18:12:00.175236'
++model_size_bytes: 152248368
++model_uuid: 0eea8f5b4ecf4e44b16da327dffcde43
++utc_time_created: '2023-12-16 18:24:16.626129'
+diff --git a/src/train_random_forest/random_forest_dir/model.pkl b/src/train_random_forest/random_forest_dir/model.pkl
+index da55ff6..b63f482 100644
+Binary files a/src/train_random_forest/random_forest_dir/model.pkl and b/src/train_random_forest/random_forest_dir/model.pkl differ
+diff --git a/src/train_random_forest/wandb/debug-internal.log b/src/train_random_forest/wandb/debug-internal.log
+index 805e94f..38980ec 120000
+--- a/src/train_random_forest/wandb/debug-internal.log
++++ b/src/train_random_forest/wandb/debug-internal.log
+@@ -1 +1 @@
+-run-20231217_011153-5eezf640/logs/debug-internal.log
+\ No newline at end of file
++run-20231217_012406-7to43u40/logs/debug-internal.log
+\ No newline at end of file
+diff --git a/src/train_random_forest/wandb/debug.log b/src/train_random_forest/wandb/debug.log
+index 08509fb..d647019 120000
+--- a/src/train_random_forest/wandb/debug.log
++++ b/src/train_random_forest/wandb/debug.log
+@@ -1 +1 @@
+-run-20231217_011153-5eezf640/logs/debug.log
+\ No newline at end of file
++run-20231217_012406-7to43u40/logs/debug.log
+\ No newline at end of file
+diff --git a/src/train_random_forest/wandb/latest-run b/src/train_random_forest/wandb/latest-run
+index 5076378..16e98be 120000
+--- a/src/train_random_forest/wandb/latest-run
++++ b/src/train_random_forest/wandb/latest-run
+@@ -1 +1 @@
+-run-20231217_011153-5eezf640
+\ No newline at end of file
++run-20231217_012406-7to43u40
+\ No newline at end of file

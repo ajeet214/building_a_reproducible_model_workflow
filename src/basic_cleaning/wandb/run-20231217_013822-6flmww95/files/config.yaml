@@ -1,0 +1,40 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    code_path: code/src/basic_cleaning/run.py
+    python_version: 3.11.7
+    cli_version: 0.15.8
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1702751902.695431
+    t:
+      1:
+      - 55
+      2:
+      - 55
+      3:
+      - 23
+      4: 3.11.7
+      5: 0.15.8
+      8:
+      - 5
+input_artifact:
+  desc: null
+  value: sample.csv:latest
+output_artifact:
+  desc: null
+  value: clean_sample.csv
+output_type:
+  desc: null
+  value: clean_sample
+output_description:
+  desc: null
+  value: Data with outliers and null values removed
+min_price:
+  desc: null
+  value: 10.0
+max_price:
+  desc: null
+  value: 350.0

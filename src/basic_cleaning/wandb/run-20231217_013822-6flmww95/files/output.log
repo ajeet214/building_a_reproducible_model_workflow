@@ -1,0 +1,7 @@
+2023-12-17 01:38:27,311 Dropping duplicates
+2023-12-17 01:38:27,329 Dropping outliers
+2023-12-17 01:38:27,329 Number of rows before dropping outliers: 20000
+2023-12-17 01:38:27,334 Number of rows after dropping outliers: 19001
+2023-12-17 01:38:27,334 Converting last_review to datetime
+2023-12-17 01:38:27,338 Saving cleaned dataframe to csv
+2023-12-17 01:38:27,420 Logging artifact
