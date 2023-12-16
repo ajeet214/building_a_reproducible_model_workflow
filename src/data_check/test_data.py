@@ -12,7 +12,7 @@ def test_column_names(data):
         data (pd.DataFrame): The dataset to be tested.
     """
 
-    expected_colums = [
+    expected_columns = [
         "id",
         "name",
         "host_id",
