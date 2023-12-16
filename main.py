@@ -1,3 +1,14 @@
+"""
+ML Pipeline Execution Script
+
+This script defines a main function 'go' to execute various steps of a machine learning pipeline. 
+The steps include data download, basic cleaning, data check, data split, training a random forest model, 
+and testing the regression model.
+The script uses MLflow for experiment tracking and artifact management.
+
+Author: Ajeet Verma
+Date: 16/12/2023
+"""
 import json
 
 import mlflow
@@ -7,6 +18,7 @@ import wandb
 import hydra
 from omegaconf import DictConfig
 
+# Define the pipeline steps
 _steps = [
     "download",
     "basic_cleaning",
@@ -26,6 +38,7 @@ def go(config: DictConfig):
         config (DictConfig): Configuration object created by Hydra
     """
 
+    # Set environment variables for Weights & Biases
     os.environ["WANDB_PROJECT"] = config["main"]["project_name"]
     os.environ["WANDB_RUN_GROUP"] = config["main"]["experiment_name"]
 
@@ -35,7 +48,8 @@ def go(config: DictConfig):
 
     # Move to a temporary directory
     with tempfile.TemporaryDirectory() as tmp_dir:
-
+        
+        # Execute the "download" step
         if "download" in active_steps:
             _ = mlflow.run(
                 uri=f"{config['main']['components_repository']}/get_data",
@@ -48,7 +62,8 @@ def go(config: DictConfig):
                     "artifact_description": "Raw file as downloaded"
                 },
             )
-
+        
+        # Execute the "basic_cleaning" step
         if "basic_cleaning" in active_steps:
             _ = mlflow.run(
                 uri=os.path.join(
@@ -65,6 +80,7 @@ def go(config: DictConfig):
                     "max_price": config['etl']['max_price']},
             )
 
+        # Execute the "data_check" step
         if "data_check" in active_steps:
             _ = mlflow.run(
                 uri=os.path.join(hydra.utils.get_original_cwd(),
@@ -78,7 +94,8 @@ def go(config: DictConfig):
                     "max_price": config['etl']['max_price']
                 },
             )
-
+        
+        # Execute the "data_split" step
         if "data_split" in active_steps:
             _ = mlflow.run(
                 uri=f"{config['main']['components_repository']}/train_val_test_split",
@@ -89,7 +106,8 @@ def go(config: DictConfig):
                     "stratify_by": config['modeling']['stratify_by'],
                     "random_seed": config['modeling']['random_seed']},
             )
-
+        
+        # Execute the "train_random_forest" step
         if "train_random_forest" in active_steps:
             rf_config = os.path.abspath("rf_config.json")
             with open(rf_config, "w+") as fp:
@@ -112,6 +130,8 @@ def go(config: DictConfig):
                     "output_artifact": "random_forest_model",
                 },
             )
+
+        # Execute the "test_regression_model" step
         if "test_regression_model" in active_steps:
             _ = mlflow.run(
                 uri=f"{config['main']['components_repository']}/test_regression_model",
