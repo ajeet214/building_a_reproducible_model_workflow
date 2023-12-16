@@ -57,3 +57,19 @@ import wandb
 import pan.." store_history=True silent=False shell_futures=True cell_id=d5358e68-b22d-4ee0-84b6-992dacd0d1d7>,),kwargs {}:
 Error in callback <bound method _WandbInit._pause_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7fae7662b550>> (for post_run_cell), with arguments args (<ExecutionResult object at 7fae74632910, execution_count=6 error_before_exec=None error_in_exec=None info=<ExecutionInfo object at 7fae76062b10, raw_cell="# Import all the Libraries
 import wandb
+import pan.." store_history=True silent=False shell_futures=True cell_id=d5358e68-b22d-4ee0-84b6-992dacd0d1d7> result=None>,),kwargs {}:
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/ajeet214/miniconda3/envs/mlflow-76946543ccec31861996d402f016e7fe67df6071/lib/python3.11/logging/__init__.py", line 1114, in emit
+    self.flush()
+  File "/home/ajeet214/miniconda3/envs/mlflow-76946543ccec31861996d402f016e7fe67df6071/lib/python3.11/logging/__init__.py", line 1094, in flush
+    self.stream.flush()
+OSError: [Errno 5] Input/output error
+Call stack:
+  File "/home/ajeet214/miniconda3/envs/mlflow-76946543ccec31861996d402f016e7fe67df6071/lib/python3.11/threading.py", line 1002, in _bootstrap
+    self._bootstrap_inner()
+  File "/home/ajeet214/miniconda3/envs/mlflow-76946543ccec31861996d402f016e7fe67df6071/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/ajeet214/miniconda3/envs/mlflow-76946543ccec31861996d402f016e7fe67df6071/lib/python3.11/site-packages/ipykernel/parentpoller.py", line 38, in run
+    get_logger().warning("Parent appears to have exited, shutting down.")
+Message: 'Parent appears to have exited, shutting down.'
