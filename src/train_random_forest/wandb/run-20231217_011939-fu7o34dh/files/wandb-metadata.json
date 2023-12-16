@@ -1,0 +1,143 @@
+{
+    "os": "Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.10.13",
+    "heartbeatAt": "2023-12-16T18:19:41.224682",
+    "startedAt": "2023-12-16T18:19:39.087454",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--trainval_artifact",
+        "trainval_data.csv:latest",
+        "--val_size",
+        "0.2",
+        "--random_seed",
+        "42",
+        "--stratify_by",
+        "neighbourhood_group",
+        "--rf_config",
+        "/home/ajeet214/building_a_reproducible_model_workflow/multirun/2023-12-17/01-19-34/0/rf_config.json",
+        "--max_tfidf_features",
+        "5",
+        "--output_artifact",
+        "random_forest_model"
+    ],
+    "state": "running",
+    "program": "/home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/run.py",
+    "codePathLocal": "run.py",
+    "codePath": "src/train_random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/ajeet214/building_a_reproducible_model_workflow.git",
+        "commit": "f7daff6852b6257bb2b40e38288bfbf8d6d7d675"
+    },
+    "email": "ajeet214.90@gmail.com",
+    "root": "/home/ajeet214/building_a_reproducible_model_workflow",
+    "host": "MSI",
+    "username": "ajeet214",
+    "executable": "/home/ajeet214/miniconda3/envs/mlflow-211c8fb974d6215abb361efdc7b6c4bd9a3e8dfd/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2303.998,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2303.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2303.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2303.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2303.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2303.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2303.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2303.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2303.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2303.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2303.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2303.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2303.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2303.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2303.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2303.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2303.998,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 16.182518005371094
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 3.6819534301757812
+    }
+}

@@ -1,0 +1,27 @@
+diff --git a/src/train_random_forest/wandb/debug-internal.log b/src/train_random_forest/wandb/debug-internal.log
+index 805e94f..1b6e5d0 120000
+--- a/src/train_random_forest/wandb/debug-internal.log
++++ b/src/train_random_forest/wandb/debug-internal.log
+@@ -1 +1 @@
+-run-20231217_011153-5eezf640/logs/debug-internal.log
+\ No newline at end of file
++run-20231217_011939-fu7o34dh/logs/debug-internal.log
+\ No newline at end of file
+diff --git a/src/train_random_forest/wandb/debug.log b/src/train_random_forest/wandb/debug.log
+index 08509fb..09ebdae 120000
+--- a/src/train_random_forest/wandb/debug.log
++++ b/src/train_random_forest/wandb/debug.log
+@@ -1 +1 @@
+-run-20231217_011153-5eezf640/logs/debug.log
+\ No newline at end of file
++run-20231217_011939-fu7o34dh/logs/debug.log
+\ No newline at end of file
+diff --git a/src/train_random_forest/wandb/latest-run b/src/train_random_forest/wandb/latest-run
+index 5076378..11cb3d2 120000
+--- a/src/train_random_forest/wandb/latest-run
++++ b/src/train_random_forest/wandb/latest-run
+@@ -1 +1 @@
+-run-20231217_011153-5eezf640
+\ No newline at end of file
++run-20231217_011939-fu7o34dh
+\ No newline at end of file

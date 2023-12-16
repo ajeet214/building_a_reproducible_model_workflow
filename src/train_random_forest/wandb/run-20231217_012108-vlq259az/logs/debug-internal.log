@@ -1,0 +1,249 @@
+2023-12-17 01:21:08,474 INFO    StreamThr :4874 [internal.py:wandb_internal():86] W&B internal server running at pid: 4874, started at: 2023-12-17 01:21:08.473718
+2023-12-17 01:21:08,477 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: status
+2023-12-17 01:21:08,479 INFO    WriterThread:4874 [datastore.py:open_for_write():85] open: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/run-vlq259az.wandb
+2023-12-17 01:21:08,479 DEBUG   SenderThread:4874 [sender.py:send():380] send: header
+2023-12-17 01:21:08,479 DEBUG   SenderThread:4874 [sender.py:send():380] send: run
+2023-12-17 01:21:09,124 INFO    SenderThread:4874 [dir_watcher.py:__init__():211] watching files in: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files
+2023-12-17 01:21:09,124 INFO    SenderThread:4874 [sender.py:_start_run_threads():1124] run started: vlq259az with start time 1702750868.473373
+2023-12-17 01:21:09,130 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: check_version
+2023-12-17 01:21:09,130 DEBUG   SenderThread:4874 [sender.py:send_request():407] send_request: check_version
+2023-12-17 01:21:09,293 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: run_start
+2023-12-17 01:21:09,885 DEBUG   HandlerThread:4874 [system_info.py:__init__():32] System info init
+2023-12-17 01:21:09,885 DEBUG   HandlerThread:4874 [system_info.py:__init__():47] System info init done
+2023-12-17 01:21:09,885 INFO    HandlerThread:4874 [system_monitor.py:start():194] Starting system monitor
+2023-12-17 01:21:09,885 INFO    SystemMonitor:4874 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-12-17 01:21:09,885 INFO    HandlerThread:4874 [system_monitor.py:probe():214] Collecting system info
+2023-12-17 01:21:09,886 INFO    SystemMonitor:4874 [interfaces.py:start():190] Started cpu monitoring
+2023-12-17 01:21:09,888 INFO    SystemMonitor:4874 [interfaces.py:start():190] Started disk monitoring
+2023-12-17 01:21:09,891 INFO    SystemMonitor:4874 [interfaces.py:start():190] Started gpu monitoring
+2023-12-17 01:21:09,892 INFO    SystemMonitor:4874 [interfaces.py:start():190] Started memory monitoring
+2023-12-17 01:21:09,893 INFO    SystemMonitor:4874 [interfaces.py:start():190] Started network monitoring
+2023-12-17 01:21:09,907 DEBUG   HandlerThread:4874 [system_info.py:probe():196] Probing system
+2023-12-17 01:21:09,924 ERROR   gpu       :4874 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-12-17 01:21:09,966 DEBUG   HandlerThread:4874 [system_info.py:_probe_git():181] Probing git
+2023-12-17 01:21:09,970 DEBUG   HandlerThread:4874 [system_info.py:_probe_git():189] Probing git done
+2023-12-17 01:21:09,970 DEBUG   HandlerThread:4874 [system_info.py:probe():244] Probing system done
+2023-12-17 01:21:09,970 DEBUG   HandlerThread:4874 [system_monitor.py:probe():223] {'os': 'Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.10.13', 'heartbeatAt': '2023-12-16T18:21:09.907995', 'startedAt': '2023-12-16T18:21:08.468261', 'docker': None, 'cuda': None, 'args': ('--trainval_artifact', 'trainval_data.csv:latest', '--val_size', '0.2', '--random_seed', '42', '--stratify_by', 'neighbourhood_group', '--rf_config', '/home/ajeet214/building_a_reproducible_model_workflow/multirun/2023-12-17/01-19-34/3/rf_config.json', '--max_tfidf_features', '5', '--output_artifact', 'random_forest_model'), 'state': 'running', 'program': '/home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/run.py', 'codePathLocal': 'run.py', 'codePath': 'src/train_random_forest/run.py', 'git': {'remote': 'https://github.com/ajeet214/building_a_reproducible_model_workflow.git', 'commit': 'f7daff6852b6257bb2b40e38288bfbf8d6d7d675'}, 'email': 'ajeet214.90@gmail.com', 'root': '/home/ajeet214/building_a_reproducible_model_workflow', 'host': 'MSI', 'username': 'ajeet214', 'executable': '/home/ajeet214/miniconda3/envs/mlflow-211c8fb974d6215abb361efdc7b6c4bd9a3e8dfd/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2303.998, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}, {'current': 2303.998, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 1006.853931427002, 'used': 16.24569320678711}}, 'gpu': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'memory_total': 4294967296}], 'memory': {'total': 3.6819534301757812}}
+2023-12-17 01:21:09,970 INFO    HandlerThread:4874 [system_monitor.py:probe():224] Finished collecting system info
+2023-12-17 01:21:09,970 INFO    HandlerThread:4874 [system_monitor.py:probe():227] Publishing system info
+2023-12-17 01:21:09,970 DEBUG   HandlerThread:4874 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-12-17 01:21:09,970 DEBUG   HandlerThread:4874 [system_info.py:_save_pip():68] Saving pip packages done
+2023-12-17 01:21:09,970 DEBUG   HandlerThread:4874 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-12-17 01:21:10,126 INFO    Thread-12 :4874 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/conda-environment.yaml
+2023-12-17 01:21:10,126 INFO    Thread-12 :4874 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/requirements.txt
+2023-12-17 01:21:10,988 DEBUG   HandlerThread:4874 [system_info.py:_save_conda():87] Saving conda packages done
+2023-12-17 01:21:10,988 DEBUG   HandlerThread:4874 [system_info.py:_save_code():90] Saving code
+2023-12-17 01:21:10,990 DEBUG   HandlerThread:4874 [system_info.py:_save_code():111] Saving code done
+2023-12-17 01:21:10,990 DEBUG   HandlerThread:4874 [system_info.py:_save_patches():128] Saving git patches
+2023-12-17 01:21:11,124 INFO    Thread-12 :4874 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/conda-environment.yaml
+2023-12-17 01:21:11,125 INFO    Thread-12 :4874 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/diff.patch
+2023-12-17 01:21:11,125 INFO    Thread-12 :4874 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/code/src/train_random_forest/run.py
+2023-12-17 01:21:11,125 INFO    Thread-12 :4874 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/code
+2023-12-17 01:21:11,125 INFO    Thread-12 :4874 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/code/src/train_random_forest
+2023-12-17 01:21:11,125 INFO    Thread-12 :4874 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/code/src
+2023-12-17 01:21:11,166 DEBUG   HandlerThread:4874 [system_info.py:_save_patches():170] Saving git patches done
+2023-12-17 01:21:11,166 INFO    HandlerThread:4874 [system_monitor.py:probe():229] Finished publishing system info
+2023-12-17 01:21:11,168 DEBUG   SenderThread:4874 [sender.py:send():380] send: files
+2023-12-17 01:21:11,168 INFO    SenderThread:4874 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2023-12-17 01:21:11,168 INFO    SenderThread:4874 [sender.py:_save_file():1380] saving file code/src/train_random_forest/run.py with policy now
+2023-12-17 01:21:11,168 INFO    SenderThread:4874 [sender.py:_save_file():1380] saving file diff.patch with policy now
+2023-12-17 01:21:11,174 DEBUG   SenderThread:4874 [sender.py:send():380] send: telemetry
+2023-12-17 01:21:11,176 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-17 01:21:11,177 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-17 01:21:11,178 DEBUG   SenderThread:4874 [sender.py:send():380] send: config
+2023-12-17 01:21:11,178 DEBUG   SenderThread:4874 [sender.py:send_request():407] send_request: stop_status
+2023-12-17 01:21:11,560 DEBUG   SenderThread:4874 [sender.py:send():380] send: config
+2023-12-17 01:21:12,025 INFO    wandb-upload_0:4874 [upload_job.py:push():131] Uploaded file /tmp/tmp0ycso1fnwandb/uu51zbdf-wandb-metadata.json
+2023-12-17 01:21:12,105 INFO    wandb-upload_2:4874 [upload_job.py:push():131] Uploaded file /tmp/tmp0ycso1fnwandb/1rfcfytq-diff.patch
+2023-12-17 01:21:12,124 INFO    wandb-upload_1:4874 [upload_job.py:push():131] Uploaded file /tmp/tmp0ycso1fnwandb/396fnehu-code/src/train_random_forest/run.py
+2023-12-17 01:21:12,125 INFO    Thread-12 :4874 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/diff.patch
+2023-12-17 01:21:12,125 INFO    Thread-12 :4874 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/wandb-metadata.json
+2023-12-17 01:21:12,365 ERROR   gpu       :4874 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-17 01:21:12,368 ERROR   gpu       :4874 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-17 01:21:12,427 DEBUG   SenderThread:4874 [sender.py:send():380] send: use_artifact
+2023-12-17 01:21:13,125 INFO    Thread-12 :4874 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/output.log
+2023-12-17 01:21:13,771 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: status_report
+2023-12-17 01:21:14,854 ERROR   gpu       :4874 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-17 01:21:14,857 ERROR   gpu       :4874 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-17 01:21:15,127 INFO    Thread-12 :4874 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/output.log
+2023-12-17 01:21:15,967 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: log_artifact
+2023-12-17 01:21:15,968 DEBUG   SenderThread:4874 [sender.py:send_request():407] send_request: log_artifact
+2023-12-17 01:21:17,128 INFO    Thread-12 :4874 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/output.log
+2023-12-17 01:21:17,316 ERROR   gpu       :4874 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-17 01:21:17,317 ERROR   gpu       :4874 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-17 01:21:17,505 INFO    wandb-upload_1:4874 [upload_job.py:push():86] Skipped uploading /home/ajeet214/.local/share/wandb/artifacts/staging/tmpfb3kchtq
+2023-12-17 01:21:17,505 INFO    wandb-upload_4:4874 [upload_job.py:push():86] Skipped uploading /home/ajeet214/.local/share/wandb/artifacts/staging/tmpn__j6w2a
+2023-12-17 01:21:17,505 INFO    wandb-upload_0:4874 [upload_job.py:push():86] Skipped uploading /home/ajeet214/.local/share/wandb/artifacts/staging/tmp4s_wh4v5
+2023-12-17 01:21:17,910 INFO    wandb-upload_3:4874 [upload_job.py:push():89] Uploaded file /home/ajeet214/.local/share/wandb/artifacts/staging/tmpxij3v9gk
+2023-12-17 01:21:19,758 ERROR   gpu       :4874 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-17 01:21:19,759 ERROR   gpu       :4874 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-17 01:21:21,915 INFO    wandb-upload_2:4874 [upload_job.py:push():89] Uploaded file /home/ajeet214/.local/share/wandb/artifacts/staging/tmpj3pbyhcz
+2023-12-17 01:21:22,227 ERROR   gpu       :4874 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-17 01:21:22,228 ERROR   gpu       :4874 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-17 01:21:22,990 INFO    SenderThread:4874 [sender.py:send_request_log_artifact():1446] logged artifact random_forest_model - {'id': 'QXJ0aWZhY3Q6NjY4NTkzNjYx', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyNDAyMzI5Nw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NjY4NTkzNDQ0', 'versionIndex': 3}}}
+2023-12-17 01:21:22,991 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: status_report
+2023-12-17 01:21:24,675 ERROR   gpu       :4874 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-17 01:21:24,676 ERROR   gpu       :4874 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-17 01:21:25,272 DEBUG   SenderThread:4874 [sender.py:send_request():407] send_request: summary_record
+2023-12-17 01:21:25,272 INFO    SenderThread:4874 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-17 01:21:25,272 DEBUG   SenderThread:4874 [sender.py:send_request():407] send_request: summary_record
+2023-12-17 01:21:25,274 INFO    SenderThread:4874 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-17 01:21:25,922 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-17 01:21:25,924 DEBUG   SenderThread:4874 [sender.py:send():380] send: files
+2023-12-17 01:21:25,924 INFO    SenderThread:4874 [sender.py:_save_file():1380] saving file media/images/feature_importance_0_789c201b433665d6d247.png with policy now
+2023-12-17 01:21:25,926 DEBUG   SenderThread:4874 [sender.py:send():380] send: history
+2023-12-17 01:21:25,926 DEBUG   SenderThread:4874 [sender.py:send_request():407] send_request: summary_record
+2023-12-17 01:21:25,928 INFO    SenderThread:4874 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-17 01:21:25,930 DEBUG   SenderThread:4874 [sender.py:send():380] send: exit
+2023-12-17 01:21:25,930 INFO    SenderThread:4874 [sender.py:send_exit():585] handling exit code: 0
+2023-12-17 01:21:25,930 INFO    SenderThread:4874 [sender.py:send_exit():587] handling runtime: 16
+2023-12-17 01:21:25,931 INFO    SenderThread:4874 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-17 01:21:25,931 INFO    SenderThread:4874 [sender.py:send_exit():593] send defer
+2023-12-17 01:21:25,932 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: defer
+2023-12-17 01:21:25,932 INFO    HandlerThread:4874 [handler.py:handle_request_defer():172] handle defer: 0
+2023-12-17 01:21:25,932 DEBUG   SenderThread:4874 [sender.py:send_request():407] send_request: defer
+2023-12-17 01:21:25,932 INFO    SenderThread:4874 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-12-17 01:21:25,933 INFO    SenderThread:4874 [sender.py:transition_state():613] send defer: 1
+2023-12-17 01:21:25,935 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: defer
+2023-12-17 01:21:25,935 INFO    HandlerThread:4874 [handler.py:handle_request_defer():172] handle defer: 1
+2023-12-17 01:21:25,935 DEBUG   SenderThread:4874 [sender.py:send_request():407] send_request: defer
+2023-12-17 01:21:25,936 INFO    SenderThread:4874 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-12-17 01:21:25,936 INFO    SenderThread:4874 [sender.py:transition_state():613] send defer: 2
+2023-12-17 01:21:25,936 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: defer
+2023-12-17 01:21:25,936 INFO    HandlerThread:4874 [handler.py:handle_request_defer():172] handle defer: 2
+2023-12-17 01:21:25,936 INFO    HandlerThread:4874 [system_monitor.py:finish():203] Stopping system monitor
+2023-12-17 01:21:25,936 DEBUG   SystemMonitor:4874 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-12-17 01:21:25,936 DEBUG   SystemMonitor:4874 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-12-17 01:21:25,936 DEBUG   SystemMonitor:4874 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-12-17 01:21:25,937 INFO    HandlerThread:4874 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-17 01:21:25,938 INFO    HandlerThread:4874 [interfaces.py:finish():202] Joined disk monitor
+2023-12-17 01:21:26,134 INFO    Thread-12 :4874 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/media/images/feature_importance_0_789c201b433665d6d247.png
+2023-12-17 01:21:26,135 INFO    Thread-12 :4874 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/wandb-summary.json
+2023-12-17 01:21:26,135 INFO    Thread-12 :4874 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/media
+2023-12-17 01:21:26,135 INFO    Thread-12 :4874 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/media/images
+2023-12-17 01:21:26,392 INFO    HandlerThread:4874 [interfaces.py:finish():202] Joined gpu monitor
+2023-12-17 01:21:26,392 INFO    HandlerThread:4874 [interfaces.py:finish():202] Joined memory monitor
+2023-12-17 01:21:26,393 INFO    HandlerThread:4874 [interfaces.py:finish():202] Joined network monitor
+2023-12-17 01:21:26,393 DEBUG   SenderThread:4874 [sender.py:send_request():407] send_request: defer
+2023-12-17 01:21:26,393 INFO    SenderThread:4874 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-12-17 01:21:26,393 INFO    SenderThread:4874 [sender.py:transition_state():613] send defer: 3
+2023-12-17 01:21:26,393 DEBUG   SenderThread:4874 [sender.py:send():380] send: stats
+2023-12-17 01:21:26,393 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: defer
+2023-12-17 01:21:26,393 INFO    HandlerThread:4874 [handler.py:handle_request_defer():172] handle defer: 3
+2023-12-17 01:21:26,394 DEBUG   SenderThread:4874 [sender.py:send_request():407] send_request: defer
+2023-12-17 01:21:26,394 INFO    SenderThread:4874 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-12-17 01:21:26,394 INFO    SenderThread:4874 [sender.py:transition_state():613] send defer: 4
+2023-12-17 01:21:26,394 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: defer
+2023-12-17 01:21:26,394 INFO    HandlerThread:4874 [handler.py:handle_request_defer():172] handle defer: 4
+2023-12-17 01:21:26,394 DEBUG   SenderThread:4874 [sender.py:send_request():407] send_request: defer
+2023-12-17 01:21:26,394 INFO    SenderThread:4874 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-12-17 01:21:26,394 INFO    SenderThread:4874 [sender.py:transition_state():613] send defer: 5
+2023-12-17 01:21:26,394 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: defer
+2023-12-17 01:21:26,394 INFO    HandlerThread:4874 [handler.py:handle_request_defer():172] handle defer: 5
+2023-12-17 01:21:26,395 DEBUG   SenderThread:4874 [sender.py:send():380] send: summary
+2023-12-17 01:21:26,395 INFO    SenderThread:4874 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-17 01:21:26,395 DEBUG   SenderThread:4874 [sender.py:send_request():407] send_request: defer
+2023-12-17 01:21:26,395 INFO    SenderThread:4874 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-12-17 01:21:26,395 INFO    SenderThread:4874 [sender.py:transition_state():613] send defer: 6
+2023-12-17 01:21:26,395 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: defer
+2023-12-17 01:21:26,395 INFO    HandlerThread:4874 [handler.py:handle_request_defer():172] handle defer: 6
+2023-12-17 01:21:26,396 DEBUG   SenderThread:4874 [sender.py:send_request():407] send_request: defer
+2023-12-17 01:21:26,396 INFO    SenderThread:4874 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-12-17 01:21:26,398 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: status_report
+2023-12-17 01:21:26,601 INFO    wandb-upload_1:4874 [upload_job.py:push():131] Uploaded file /tmp/tmp0ycso1fnwandb/st5sl24g-media/images/feature_importance_0_789c201b433665d6d247.png
+2023-12-17 01:21:26,643 INFO    SenderThread:4874 [sender.py:transition_state():613] send defer: 7
+2023-12-17 01:21:26,644 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: defer
+2023-12-17 01:21:26,644 INFO    HandlerThread:4874 [handler.py:handle_request_defer():172] handle defer: 7
+2023-12-17 01:21:26,644 DEBUG   SenderThread:4874 [sender.py:send_request():407] send_request: defer
+2023-12-17 01:21:26,644 INFO    SenderThread:4874 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-12-17 01:21:26,930 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-17 01:21:27,078 INFO    SenderThread:4874 [sender.py:transition_state():613] send defer: 8
+2023-12-17 01:21:27,078 DEBUG   SenderThread:4874 [sender.py:send_request():407] send_request: poll_exit
+2023-12-17 01:21:27,079 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: defer
+2023-12-17 01:21:27,080 INFO    HandlerThread:4874 [handler.py:handle_request_defer():172] handle defer: 8
+2023-12-17 01:21:27,081 DEBUG   SenderThread:4874 [sender.py:send_request():407] send_request: defer
+2023-12-17 01:21:27,081 INFO    SenderThread:4874 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-12-17 01:21:27,081 INFO    SenderThread:4874 [job_builder.py:build():298] Attempting to build job artifact
+2023-12-17 01:21:27,082 INFO    SenderThread:4874 [job_builder.py:_get_source_type():428] is repo sourced job
+2023-12-17 01:21:27,085 INFO    SenderThread:4874 [job_builder.py:build():404] adding wandb-job metadata file
+2023-12-17 01:21:27,096 INFO    SenderThread:4874 [sender.py:transition_state():613] send defer: 9
+2023-12-17 01:21:27,096 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: defer
+2023-12-17 01:21:27,097 INFO    HandlerThread:4874 [handler.py:handle_request_defer():172] handle defer: 9
+2023-12-17 01:21:27,097 DEBUG   SenderThread:4874 [sender.py:send():380] send: artifact
+2023-12-17 01:21:27,136 INFO    Thread-12 :4874 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/wandb-summary.json
+2023-12-17 01:21:27,136 INFO    Thread-12 :4874 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/config.yaml
+2023-12-17 01:21:27,137 INFO    Thread-12 :4874 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/output.log
+2023-12-17 01:21:27,402 INFO    wandb-upload_0:4874 [upload_job.py:push():131] Uploaded file /tmp/tmp0ycso1fnwandb/m360st0n-media/images/feature_importance_0_789c201b433665d6d247.png
+2023-12-17 01:21:27,934 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-17 01:21:28,213 INFO    wandb-upload_1:4874 [upload_job.py:push():86] Skipped uploading /home/ajeet214/.local/share/wandb/artifacts/staging/tmpt1mblnve
+2023-12-17 01:21:28,214 INFO    wandb-upload_4:4874 [upload_job.py:push():86] Skipped uploading /home/ajeet214/.local/share/wandb/artifacts/staging/tmpbmhuqad_
+2023-12-17 01:21:28,635 INFO    wandb-upload_2:4874 [upload_job.py:push():89] Uploaded file /home/ajeet214/.local/share/wandb/artifacts/staging/tmpnhonhkyw
+2023-12-17 01:21:30,168 INFO    SenderThread:4874 [sender.py:send_artifact():1458] sent artifact job-https___github.com_ajeet214_building_a_reproducible_model_workflow.git_src_train_random_forest_run.py - {'id': 'QXJ0aWZhY3Q6NjY4NTkzNzI1', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyNDAyMzM1Ng==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NjY4NTkzNTA4', 'versionIndex': 3}}}
+2023-12-17 01:21:30,168 DEBUG   SenderThread:4874 [sender.py:send_request():407] send_request: defer
+2023-12-17 01:21:30,168 INFO    SenderThread:4874 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-12-17 01:21:30,168 INFO    SenderThread:4874 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-12-17 01:21:31,141 INFO    SenderThread:4874 [dir_watcher.py:finish():388] scan: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files
+2023-12-17 01:21:31,141 INFO    SenderThread:4874 [dir_watcher.py:finish():402] scan save: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/wandb-summary.json wandb-summary.json
+2023-12-17 01:21:31,142 INFO    SenderThread:4874 [dir_watcher.py:finish():402] scan save: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/diff.patch diff.patch
+2023-12-17 01:21:31,142 INFO    SenderThread:4874 [dir_watcher.py:finish():402] scan save: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/wandb-metadata.json wandb-metadata.json
+2023-12-17 01:21:31,143 INFO    SenderThread:4874 [dir_watcher.py:finish():402] scan save: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/conda-environment.yaml conda-environment.yaml
+2023-12-17 01:21:31,143 INFO    SenderThread:4874 [dir_watcher.py:finish():402] scan save: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/requirements.txt requirements.txt
+2023-12-17 01:21:31,144 INFO    SenderThread:4874 [dir_watcher.py:finish():402] scan save: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/config.yaml config.yaml
+2023-12-17 01:21:31,144 INFO    SenderThread:4874 [dir_watcher.py:finish():402] scan save: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/output.log output.log
+2023-12-17 01:21:31,150 INFO    SenderThread:4874 [dir_watcher.py:finish():402] scan save: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/code/src/train_random_forest/run.py code/src/train_random_forest/run.py
+2023-12-17 01:21:31,157 INFO    SenderThread:4874 [dir_watcher.py:finish():402] scan save: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/media/images/feature_importance_0_789c201b433665d6d247.png media/images/feature_importance_0_789c201b433665d6d247.png
+2023-12-17 01:21:31,157 INFO    SenderThread:4874 [sender.py:transition_state():613] send defer: 10
+2023-12-17 01:21:31,157 DEBUG   SenderThread:4874 [sender.py:send_request():407] send_request: poll_exit
+2023-12-17 01:21:31,157 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: defer
+2023-12-17 01:21:31,157 INFO    HandlerThread:4874 [handler.py:handle_request_defer():172] handle defer: 10
+2023-12-17 01:21:31,158 DEBUG   SenderThread:4874 [sender.py:send_request():407] send_request: defer
+2023-12-17 01:21:31,158 INFO    SenderThread:4874 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-12-17 01:21:31,158 INFO    SenderThread:4874 [file_pusher.py:finish():175] shutting down file pusher
+2023-12-17 01:21:31,682 INFO    wandb-upload_3:4874 [upload_job.py:push():131] Uploaded file /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/conda-environment.yaml
+2023-12-17 01:21:31,684 INFO    wandb-upload_4:4874 [upload_job.py:push():131] Uploaded file /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/config.yaml
+2023-12-17 01:21:31,685 INFO    wandb-upload_0:4874 [upload_job.py:push():131] Uploaded file /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/wandb-summary.json
+2023-12-17 01:21:31,811 INFO    wandb-upload_1:4874 [upload_job.py:push():131] Uploaded file /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/requirements.txt
+2023-12-17 01:21:31,926 INFO    wandb-upload_2:4874 [upload_job.py:push():131] Uploaded file /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/files/output.log
+2023-12-17 01:21:32,127 INFO    Thread-11 (_thread_body):4874 [sender.py:transition_state():613] send defer: 11
+2023-12-17 01:21:32,129 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: defer
+2023-12-17 01:21:32,130 INFO    HandlerThread:4874 [handler.py:handle_request_defer():172] handle defer: 11
+2023-12-17 01:21:32,132 DEBUG   SenderThread:4874 [sender.py:send_request():407] send_request: defer
+2023-12-17 01:21:32,132 INFO    SenderThread:4874 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-12-17 01:21:32,133 INFO    SenderThread:4874 [file_pusher.py:join():181] waiting for file pusher
+2023-12-17 01:21:32,133 INFO    SenderThread:4874 [sender.py:transition_state():613] send defer: 12
+2023-12-17 01:21:32,133 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: defer
+2023-12-17 01:21:32,134 INFO    HandlerThread:4874 [handler.py:handle_request_defer():172] handle defer: 12
+2023-12-17 01:21:32,135 DEBUG   SenderThread:4874 [sender.py:send_request():407] send_request: defer
+2023-12-17 01:21:32,135 INFO    SenderThread:4874 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-12-17 01:21:32,135 INFO    SenderThread:4874 [file_stream.py:finish():595] file stream finish called
+2023-12-17 01:21:32,382 INFO    SenderThread:4874 [file_stream.py:finish():599] file stream finish is done
+2023-12-17 01:21:32,382 INFO    SenderThread:4874 [sender.py:transition_state():613] send defer: 13
+2023-12-17 01:21:32,383 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: defer
+2023-12-17 01:21:32,383 INFO    HandlerThread:4874 [handler.py:handle_request_defer():172] handle defer: 13
+2023-12-17 01:21:32,384 DEBUG   SenderThread:4874 [sender.py:send_request():407] send_request: defer
+2023-12-17 01:21:32,384 INFO    SenderThread:4874 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-12-17 01:21:32,384 INFO    SenderThread:4874 [sender.py:transition_state():613] send defer: 14
+2023-12-17 01:21:32,385 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: defer
+2023-12-17 01:21:32,386 INFO    HandlerThread:4874 [handler.py:handle_request_defer():172] handle defer: 14
+2023-12-17 01:21:32,386 DEBUG   SenderThread:4874 [sender.py:send():380] send: final
+2023-12-17 01:21:32,386 DEBUG   SenderThread:4874 [sender.py:send():380] send: footer
+2023-12-17 01:21:32,386 DEBUG   SenderThread:4874 [sender.py:send_request():407] send_request: defer
+2023-12-17 01:21:32,387 INFO    SenderThread:4874 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-12-17 01:21:32,388 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-17 01:21:32,388 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: server_info
+2023-12-17 01:21:32,389 DEBUG   SenderThread:4874 [sender.py:send_request():407] send_request: poll_exit
+2023-12-17 01:21:32,390 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: get_summary
+2023-12-17 01:21:32,390 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: sampled_history
+2023-12-17 01:21:32,391 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-17 01:21:32,391 DEBUG   SenderThread:4874 [sender.py:send_request():407] send_request: server_info
+2023-12-17 01:21:32,393 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: job_info
+2023-12-17 01:21:32,631 DEBUG   SenderThread:4874 [sender.py:send_request():407] send_request: job_info
+2023-12-17 01:21:32,632 INFO    MainThread:4874 [wandb_run.py:_footer_history_summary_info():3760] rendering history
+2023-12-17 01:21:32,632 INFO    MainThread:4874 [wandb_run.py:_footer_history_summary_info():3792] rendering summary
+2023-12-17 01:21:32,633 INFO    MainThread:4874 [wandb_run.py:_footer_sync_info():3719] logging synced files
+2023-12-17 01:21:32,634 DEBUG   HandlerThread:4874 [handler.py:handle_request():146] handle_request: shutdown
+2023-12-17 01:21:32,634 INFO    HandlerThread:4874 [handler.py:finish():866] shutting down handler
+2023-12-17 01:21:33,394 INFO    WriterThread:4874 [datastore.py:close():294] close: /home/ajeet214/building_a_reproducible_model_workflow/src/train_random_forest/wandb/run-20231217_012108-vlq259az/run-vlq259az.wandb
+2023-12-17 01:21:33,632 INFO    SenderThread:4874 [sender.py:finish():1536] shutting down sender
+2023-12-17 01:21:33,632 INFO    SenderThread:4874 [file_pusher.py:finish():175] shutting down file pusher
+2023-12-17 01:21:33,632 INFO    SenderThread:4874 [file_pusher.py:join():181] waiting for file pusher

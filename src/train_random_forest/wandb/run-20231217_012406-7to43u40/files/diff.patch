@@ -1,0 +1,44 @@
+diff --git a/src/train_random_forest/random_forest_dir/MLmodel b/src/train_random_forest/random_forest_dir/MLmodel
+index 5255c49..0907a27 100644
+--- a/src/train_random_forest/random_forest_dir/MLmodel
++++ b/src/train_random_forest/random_forest_dir/MLmodel
+@@ -13,6 +13,6 @@ flavors:
+     serialization_format: cloudpickle
+     sklearn_version: 1.3.2
+ mlflow_version: 2.8.1
+-model_size_bytes: 21363503
+-model_uuid: 178be8b119794b2a9b21714f4c1b829e
+-utc_time_created: '2023-12-16 18:12:00.175236'
++model_size_bytes: 61002263
++model_uuid: 5dfa8e7a4a3c406abd1aab40b0587e75
++utc_time_created: '2023-12-16 18:23:36.724396'
+diff --git a/src/train_random_forest/random_forest_dir/model.pkl b/src/train_random_forest/random_forest_dir/model.pkl
+index da55ff6..050fd19 100644
+Binary files a/src/train_random_forest/random_forest_dir/model.pkl and b/src/train_random_forest/random_forest_dir/model.pkl differ
+diff --git a/src/train_random_forest/wandb/debug-internal.log b/src/train_random_forest/wandb/debug-internal.log
+index 805e94f..38980ec 120000
+--- a/src/train_random_forest/wandb/debug-internal.log
++++ b/src/train_random_forest/wandb/debug-internal.log
+@@ -1 +1 @@
+-run-20231217_011153-5eezf640/logs/debug-internal.log
+\ No newline at end of file
++run-20231217_012406-7to43u40/logs/debug-internal.log
+\ No newline at end of file
+diff --git a/src/train_random_forest/wandb/debug.log b/src/train_random_forest/wandb/debug.log
+index 08509fb..d647019 120000
+--- a/src/train_random_forest/wandb/debug.log
++++ b/src/train_random_forest/wandb/debug.log
+@@ -1 +1 @@
+-run-20231217_011153-5eezf640/logs/debug.log
+\ No newline at end of file
++run-20231217_012406-7to43u40/logs/debug.log
+\ No newline at end of file
+diff --git a/src/train_random_forest/wandb/latest-run b/src/train_random_forest/wandb/latest-run
+index 5076378..16e98be 120000
+--- a/src/train_random_forest/wandb/latest-run
++++ b/src/train_random_forest/wandb/latest-run
+@@ -1 +1 @@
+-run-20231217_011153-5eezf640
+\ No newline at end of file
++run-20231217_012406-7to43u40
+\ No newline at end of file
