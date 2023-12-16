@@ -1,11 +1,11 @@
+import os
+import json
 import argparse
 import logging
-import os
 import shutil
 import matplotlib.pyplot as plt
 
 import mlflow
-import json
 
 import pandas as pd
 import numpy as np
@@ -20,7 +20,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error
 from sklearn.pipeline import Pipeline, make_pipeline
 
-
+# Set up logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)-15s %(message)s")
 logger = logging.getLogger()
 
