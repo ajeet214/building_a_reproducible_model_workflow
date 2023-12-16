@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/bf1d906bb7234722940c6c52c46d77a4/artifacts
+end_time: 1702753424934
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bf1d906bb7234722940c6c52c46d77a4
+run_name: intelligent-cat-757
+run_uuid: bf1d906bb7234722940c6c52c46d77a4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702753422081
+status: 3
+tags: []
+user_id: ajeet214

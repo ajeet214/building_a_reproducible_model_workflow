@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/635edd2532904a75b2915ce1ffe7adba/artifacts
+end_time: 1702750803337
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 635edd2532904a75b2915ce1ffe7adba
+run_name: rumbling-carp-994
+run_uuid: 635edd2532904a75b2915ce1ffe7adba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702750774680
+status: 3
+tags: []
+user_id: ajeet214

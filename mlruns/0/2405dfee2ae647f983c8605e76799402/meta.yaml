@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/2405dfee2ae647f983c8605e76799402/artifacts
+end_time: 1702750895870
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2405dfee2ae647f983c8605e76799402
+run_name: persistent-trout-795
+run_uuid: 2405dfee2ae647f983c8605e76799402
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702750865034
+status: 3
+tags: []
+user_id: ajeet214

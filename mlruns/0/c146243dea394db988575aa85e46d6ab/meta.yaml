@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/c146243dea394db988575aa85e46d6ab/artifacts
+end_time: 1702753759597
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c146243dea394db988575aa85e46d6ab
+run_name: bittersweet-seal-90
+run_uuid: c146243dea394db988575aa85e46d6ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702753605880
+status: 3
+tags: []
+user_id: ajeet214

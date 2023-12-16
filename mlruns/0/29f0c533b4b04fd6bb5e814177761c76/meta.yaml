@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/29f0c533b4b04fd6bb5e814177761c76/artifacts
+end_time: 1702750929529
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 29f0c533b4b04fd6bb5e814177761c76
+run_name: enthused-toad-386
+run_uuid: 29f0c533b4b04fd6bb5e814177761c76
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702750895951
+status: 3
+tags: []
+user_id: ajeet214

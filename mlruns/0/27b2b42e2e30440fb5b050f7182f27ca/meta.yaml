@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/27b2b42e2e30440fb5b050f7182f27ca/artifacts
+end_time: 1702751919038
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 27b2b42e2e30440fb5b050f7182f27ca
+run_name: angry-snake-477
+run_uuid: 27b2b42e2e30440fb5b050f7182f27ca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702751898395
+status: 3
+tags: []
+user_id: ajeet214

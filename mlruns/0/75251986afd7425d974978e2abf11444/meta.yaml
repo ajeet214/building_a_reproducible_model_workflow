@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/75251986afd7425d974978e2abf11444/artifacts
+end_time: 1702753833626
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 75251986afd7425d974978e2abf11444
+run_name: painted-stork-331
+run_uuid: 75251986afd7425d974978e2abf11444
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702753812110
+status: 3
+tags: []
+user_id: ajeet214

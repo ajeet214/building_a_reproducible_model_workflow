@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/b6d02457b5be4158b385f63ac8d97eb0/artifacts
+end_time: 1702753491041
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b6d02457b5be4158b385f63ac8d97eb0
+run_name: gentle-mole-977
+run_uuid: b6d02457b5be4158b385f63ac8d97eb0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702753472585
+status: 3
+tags: []
+user_id: ajeet214

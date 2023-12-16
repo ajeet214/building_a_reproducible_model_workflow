@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/4f7b930da2814003a6e5ed3895479ab5/artifacts
+end_time: 1702752242025
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4f7b930da2814003a6e5ed3895479ab5
+run_name: blushing-lark-288
+run_uuid: 4f7b930da2814003a6e5ed3895479ab5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702751874221
+status: 4
+tags: []
+user_id: ajeet214

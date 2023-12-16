@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/c3918adb3f3743408aed20b314a2ee8e/artifacts
+end_time: 1702751089819
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c3918adb3f3743408aed20b314a2ee8e
+run_name: rare-penguin-745
+run_uuid: c3918adb3f3743408aed20b314a2ee8e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702750770706
+status: 3
+tags: []
+user_id: ajeet214

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/22edccf8776b40c78917c9615e85278c/artifacts
+end_time: 1702751240167
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 22edccf8776b40c78917c9615e85278c
+run_name: illustrious-fox-767
+run_uuid: 22edccf8776b40c78917c9615e85278c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702751112460
+status: 4
+tags: []
+user_id: ajeet214

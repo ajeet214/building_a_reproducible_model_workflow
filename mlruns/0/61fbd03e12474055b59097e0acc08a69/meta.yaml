@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/61fbd03e12474055b59097e0acc08a69/artifacts
+end_time: 1702751007112
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 61fbd03e12474055b59097e0acc08a69
+run_name: casual-dog-309
+run_uuid: 61fbd03e12474055b59097e0acc08a69
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702750977407
+status: 3
+tags: []
+user_id: ajeet214

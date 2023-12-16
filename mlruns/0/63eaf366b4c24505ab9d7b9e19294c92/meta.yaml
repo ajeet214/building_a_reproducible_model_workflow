@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/63eaf366b4c24505ab9d7b9e19294c92/artifacts
+end_time: 1702753759445
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 63eaf366b4c24505ab9d7b9e19294c92
+run_name: secretive-robin-635
+run_uuid: 63eaf366b4c24505ab9d7b9e19294c92
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702753733135
+status: 3
+tags: []
+user_id: ajeet214

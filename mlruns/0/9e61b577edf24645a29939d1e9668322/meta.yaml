@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/9e61b577edf24645a29939d1e9668322/artifacts
+end_time: 1702751786381
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9e61b577edf24645a29939d1e9668322
+run_name: thoughtful-doe-26
+run_uuid: 9e61b577edf24645a29939d1e9668322
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702751765157
+status: 4
+tags: []
+user_id: ajeet214

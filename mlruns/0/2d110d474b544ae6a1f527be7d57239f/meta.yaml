@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/2d110d474b544ae6a1f527be7d57239f/artifacts
+end_time: 1702753663850
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2d110d474b544ae6a1f527be7d57239f
+run_name: clumsy-hound-902
+run_uuid: 2d110d474b544ae6a1f527be7d57239f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702753648529
+status: 3
+tags: []
+user_id: ajeet214

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/6777d4f7496d4135951de4f278b5cc0f/artifacts
+end_time: 1702751238652
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6777d4f7496d4135951de4f278b5cc0f
+run_name: gifted-deer-65
+run_uuid: 6777d4f7496d4135951de4f278b5cc0f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702751117533
+status: 4
+tags: []
+user_id: ajeet214

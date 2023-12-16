@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/5ee6c3fe55294b989b654b9b57ad1354/artifacts
+end_time: 1702751620398
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5ee6c3fe55294b989b654b9b57ad1354
+run_name: funny-vole-314
+run_uuid: 5ee6c3fe55294b989b654b9b57ad1354
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702751603608
+status: 4
+tags: []
+user_id: ajeet214
