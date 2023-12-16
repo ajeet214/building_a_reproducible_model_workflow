@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/e098b5cedebe4cd4a8ffff81f75aae15/artifacts
+end_time: 1702540493710
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e098b5cedebe4cd4a8ffff81f75aae15
+run_name: traveling-shad-309
+run_uuid: e098b5cedebe4cd4a8ffff81f75aae15
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702540179332
+status: 4
+tags: []
+user_id: ajeet214

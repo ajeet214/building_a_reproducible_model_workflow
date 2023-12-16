@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/15f12f4eb0ba4c2794cd384c4e6e3299/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 15f12f4eb0ba4c2794cd384c4e6e3299
+run_name: nervous-mole-538
+run_uuid: 15f12f4eb0ba4c2794cd384c4e6e3299
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702536419734
+status: 1
+tags: []
+user_id: ajeet214

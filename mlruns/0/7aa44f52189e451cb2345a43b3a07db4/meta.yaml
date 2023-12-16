@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/7aa44f52189e451cb2345a43b3a07db4/artifacts
+end_time: 1702541064538
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7aa44f52189e451cb2345a43b3a07db4
+run_name: shivering-roo-621
+run_uuid: 7aa44f52189e451cb2345a43b3a07db4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702540512031
+status: 4
+tags: []
+user_id: ajeet214

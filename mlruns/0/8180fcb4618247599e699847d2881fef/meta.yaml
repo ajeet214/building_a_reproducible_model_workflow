@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/8180fcb4618247599e699847d2881fef/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8180fcb4618247599e699847d2881fef
+run_name: luminous-robin-494
+run_uuid: 8180fcb4618247599e699847d2881fef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702522814026
+status: 1
+tags: []
+user_id: ajeet214

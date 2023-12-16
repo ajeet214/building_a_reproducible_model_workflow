@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/f1d841000dce4025bd639e7dfc8daf0a/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f1d841000dce4025bd639e7dfc8daf0a
+run_name: rare-shrew-115
+run_uuid: f1d841000dce4025bd639e7dfc8daf0a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702536422939
+status: 1
+tags: []
+user_id: ajeet214

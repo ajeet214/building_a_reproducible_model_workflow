@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/799ca8ce4f984cc095255549ace5d87d/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 799ca8ce4f984cc095255549ace5d87d
+run_name: upset-kit-631
+run_uuid: 799ca8ce4f984cc095255549ace5d87d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702521582481
+status: 1
+tags: []
+user_id: ajeet214

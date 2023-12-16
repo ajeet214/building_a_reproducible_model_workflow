@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/3c07081137ed4311be88cd2cb5be9629/artifacts
+end_time: 1702523137722
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3c07081137ed4311be88cd2cb5be9629
+run_name: overjoyed-moth-95
+run_uuid: 3c07081137ed4311be88cd2cb5be9629
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702522811210
+status: 4
+tags: []
+user_id: ajeet214

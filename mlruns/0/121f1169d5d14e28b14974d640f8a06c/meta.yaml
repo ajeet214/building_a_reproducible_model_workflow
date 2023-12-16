@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/121f1169d5d14e28b14974d640f8a06c/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 121f1169d5d14e28b14974d640f8a06c
+run_name: treasured-gull-318
+run_uuid: 121f1169d5d14e28b14974d640f8a06c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702540182269
+status: 1
+tags: []
+user_id: ajeet214
