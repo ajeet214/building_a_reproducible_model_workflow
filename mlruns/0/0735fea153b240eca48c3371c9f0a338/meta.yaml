@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/0735fea153b240eca48c3371c9f0a338/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0735fea153b240eca48c3371c9f0a338
+run_name: redolent-sheep-107
+run_uuid: 0735fea153b240eca48c3371c9f0a338
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702742988219
+status: 1
+tags: []
+user_id: ajeet214

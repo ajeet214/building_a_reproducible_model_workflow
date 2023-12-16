@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/66fe802a87c345c18392ee679c2b56bb/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 66fe802a87c345c18392ee679c2b56bb
+run_name: sassy-eel-988
+run_uuid: 66fe802a87c345c18392ee679c2b56bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702743568122
+status: 1
+tags: []
+user_id: ajeet214

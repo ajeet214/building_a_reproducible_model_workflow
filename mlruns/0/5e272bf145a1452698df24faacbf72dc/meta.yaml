@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ajeet214/building_a_reproducible_model_workflow/mlruns/0/5e272bf145a1452698df24faacbf72dc/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5e272bf145a1452698df24faacbf72dc
+run_name: skillful-bug-189
+run_uuid: 5e272bf145a1452698df24faacbf72dc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702744114191
+status: 1
+tags: []
+user_id: ajeet214

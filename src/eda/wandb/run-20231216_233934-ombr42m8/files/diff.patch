@@ -1,0 +1,14 @@
+diff --git a/src/eda/conda.yml b/src/eda/conda.yml
+index 43121d3..0b50bee 100644
+--- a/src/eda/conda.yml
++++ b/src/eda/conda.yml
+@@ -7,8 +7,8 @@ dependencies:
+   - seaborn=0.12.2
+   - pandas=2.0.3
+   - pip=23.2.1
+-  - ydata-profiling
+   - pyarrow=12.0.1
+   - ipywidgets==8.1.1
+   - pip:
+       - wandb==0.15.8
++      - ydata-profiling
