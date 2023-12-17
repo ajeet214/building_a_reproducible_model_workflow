@@ -1,6 +1,6 @@
 GitHub Link: https://github.com/ajeet214/building_a_reproducible_model_workflow
 
-Wandb link: https://wandb.ai/ajeet214/nyc_airbnb
+Weight & Bias link: https://wandb.ai/ajeet214/nyc_airbnb?workspace=user-ajeet214
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
 You are working for a property management company renting rooms and properties for short periods of 
 time on various rental platforms. You need to estimate the typical price for a given property based 
